@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 PackageIdentifier: ItTiger.TigerMarkView
-PackageVersion: 0.8.1
+PackageVersion: 0.10.0
 PackageLocale: en-US
 Publisher: IT Tiger
 PublisherUrl: https://www.ittiger.net/
@@ -9,7 +9,6 @@ Author: IT Tiger
 PackageName: TigerMarkView
 PackageUrl: https://github.com/rkozlowski/TigerMarkView
 License: MIT
-LicenseUrl: https://github.com/rkozlowski/TigerMarkView/blob/v0.8.1/LICENSE
 Copyright: Copyright (c) 2026 Ryszard Kozlowski
 ShortDescription: A local Markdown viewer, reviewer and PDF exporter.
 Description: |-
@@ -22,7 +21,6 @@ Tags:
 - viewer
 Documentations:
 - DocumentLabel: Help
-  DocumentUrl: https://github.com/rkozlowski/TigerMarkView/blob/v0.8.1/docs/HELP.md
-ReleaseNotesUrl: https://github.com/rkozlowski/TigerMarkView/releases/tag/v0.8.1
+  DocumentUrl: https://github.com/rkozlowski/TigerMarkView/blob/main/docs/HELP.md
 ManifestType: defaultLocale
 ManifestVersion: 1.12.0
