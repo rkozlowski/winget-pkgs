@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 PackageIdentifier: ItTiger.TigerMarkView
-PackageVersion: 0.10.0
+PackageVersion: 0.12.1
 InstallerLocale: en-US
 Platform:
 - Windows.Desktop
@@ -39,8 +39,8 @@ Dependencies:
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://github.com/rkozlowski/TigerMarkView/releases/download/v0.10.0/TigerMarkView-0.10.0-win-x64-setup.exe
-  InstallerSha256: 9E29FCBF292B7F29A22D64CEC1ECD0B15231FD06D5A920B4A34507AF5DB14464
+  InstallerUrl: https://github.com/rkozlowski/TigerMarkView/releases/download/v0.12.1/TigerMarkView-0.12.1-win-x64-setup.exe
+  InstallerSha256: 0BDDBEA84CFE1526CB636F56AC6D6D7532BA10A43C4314E8A695BF6F1A70E16F
   InstallerSwitches:
     Silent: install --quiet --scope user
     SilentWithProgress: install --quiet --scope user
@@ -50,8 +50,8 @@ Installers:
 - Architecture: x64
   Scope: machine
   ElevationRequirement: elevatesSelf
-  InstallerUrl: https://github.com/rkozlowski/TigerMarkView/releases/download/v0.10.0/TigerMarkView-0.10.0-win-x64-setup.exe
-  InstallerSha256: 9E29FCBF292B7F29A22D64CEC1ECD0B15231FD06D5A920B4A34507AF5DB14464
+  InstallerUrl: https://github.com/rkozlowski/TigerMarkView/releases/download/v0.12.1/TigerMarkView-0.12.1-win-x64-setup.exe
+  InstallerSha256: 0BDDBEA84CFE1526CB636F56AC6D6D7532BA10A43C4314E8A695BF6F1A70E16F
   InstallerSwitches:
     Silent: install --quiet --scope machine
     SilentWithProgress: install --quiet --scope machine
