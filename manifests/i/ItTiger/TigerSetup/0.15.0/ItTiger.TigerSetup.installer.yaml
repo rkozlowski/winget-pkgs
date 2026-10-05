@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 PackageIdentifier: ItTiger.TigerSetup
-PackageVersion: 0.12.0
+PackageVersion: 0.15.0
 InstallerLocale: en-US
 Platform:
 - Windows.Desktop
@@ -35,8 +35,8 @@ ExpectedReturnCodes:
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://github.com/rkozlowski/TigerSetup/releases/download/v0.12.0/TigerSetup-0.12.0-Setup.exe
-  InstallerSha256: 9FCAE32789A494A96A3E04B8DE2AFB6691831F6C8E68625A441DED57EACEB765
+  InstallerUrl: https://github.com/rkozlowski/TigerSetup/releases/download/v0.15.0/TigerSetup-0.15.0-Setup.exe
+  InstallerSha256: B1E5CC6CE1AAA17D09908C585547B674F685C251DB1DC945AE8AB4E7E78691F7
   InstallerSwitches:
     Silent: install --quiet --scope user
     SilentWithProgress: install --quiet --scope user
@@ -46,8 +46,8 @@ Installers:
 - Architecture: x64
   Scope: machine
   ElevationRequirement: elevatesSelf
-  InstallerUrl: https://github.com/rkozlowski/TigerSetup/releases/download/v0.12.0/TigerSetup-0.12.0-Setup.exe
-  InstallerSha256: 9FCAE32789A494A96A3E04B8DE2AFB6691831F6C8E68625A441DED57EACEB765
+  InstallerUrl: https://github.com/rkozlowski/TigerSetup/releases/download/v0.15.0/TigerSetup-0.15.0-Setup.exe
+  InstallerSha256: B1E5CC6CE1AAA17D09908C585547B674F685C251DB1DC945AE8AB4E7E78691F7
   InstallerSwitches:
     Silent: install --quiet --scope machine
     SilentWithProgress: install --quiet --scope machine
